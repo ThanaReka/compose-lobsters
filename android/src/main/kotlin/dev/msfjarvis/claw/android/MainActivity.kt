@@ -38,12 +38,8 @@ class MainActivity : BaseActivity() {
 
       else -> {
         TwoPaneLayout(
-          lazyPagingItems = TODO(),
-          postActions = TODO(),
+          urlLauncher = urlLauncher,
           htmlConverter = htmlConverter,
-          getSeenComments = TODO(),
-          markSeenComments = TODO(),
-          openUserProfile = TODO(),
           modifier = Modifier.fillMaxSize()
         )
         
